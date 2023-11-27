@@ -1,5 +1,3 @@
-#!/bin/bash
-
 #this is puppet manifet that kills the process 
 
 exec { 'killmenow':
