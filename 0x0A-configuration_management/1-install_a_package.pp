@@ -1,6 +1,4 @@
-# This script is to install flask
-
-# Include the stdlib module
+# This is for flask installation
 include stdlib
 
 # Define a class for installing Flask
