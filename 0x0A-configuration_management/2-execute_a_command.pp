@@ -1,7 +1,6 @@
-#this is puppet manifet that kills the process 
+# kill process killmenow
 
-exec {'killmenow':
-  command     => 'pkill -f menow',
-  refreshonly => true,
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
 }
-
