@@ -5,12 +5,3 @@ exec { 'install_flask':
     provider   => 'pip3',
 
 }
-
-#Below is code for installing Werkzeug
-exec { 'install_werkzeug':
-    command     => '/usr/bin/pip3 install Werkzeug',
-    path        => '/usr/local/bin:/usr/bin:/bin',
-    unless      => '/usr/bin/pip3 show Werkzeug | grep -q "Name: Werkzeug"',
-    provider    => 'shell',
-    logoutput   => true,
-  }
