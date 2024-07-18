@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #This script file will create RSA key pair when executed.
 
-ssh-keygen `-t rsa` `-b 4096` `-f "school"` `-N "betty"`
+ssh-keygen `-t "rsa"` `-b "4096"` `-f "school"` `-N "betty"`
 
