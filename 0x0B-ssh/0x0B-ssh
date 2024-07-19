@@ -1,2 +1,4 @@
+# Command that copy SSH Public Key to the Server.
+
 ssh-copy-id ubuntu@100.25.148.206
 
